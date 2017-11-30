@@ -1,0 +1,88 @@
+mks-en létrejönnek a projektek.
+kik dolgoznak rajta
+
+release
+
+belsõ elnevezés az mlc
+
+Freeze/release
+
+prefreeze
+
+észülünk a tesztre
+mindenki ellenõrzi
+TRR-ben miket kell jóváhagyni 
+critical changez csinálni 
+
+freeze
+
+elindul a tartós teszt
+végén bug fix
+
+release periód
+
+RR kap a fejlesztõ amit meg kell néznie, meg kell néznie, hogy minden fejlesztés az mks1-en lezárult e
+Release periódus végén svisor task csoportvezetõnek
+neki is jóvá kell hagynia amit a fejlesztõje jóváhagyott
+egy csoportvezetõhöz több funkció is tartozhat
+ugyanazokat nézi mint a fejlesztõ csak nem nézi a technikai hátteret
+csak a doksikat és taskokat, safeket hogy minden le van e zárva
+
+Release munka
+
+taskokban nyílnak a feladatok-->periódusok ellenõrzésére
+release sheet-->adott rész fontosabb adatai
+külön al-taskok amiket a fejlesztõk kapnak
+kap egy taskot minden csoportvezetõ
+vannak hozzácsatolva alsheetek
+több funkciót is nézni kell
+
+TRR,RR taskokat kapnak a fejlesztõk
+a csoportvezetõ SVT taskot
+Elõfordulhat hogy release review nem nyílik, ezt is le kell kezelni
+a csoportvezetõk gyûjtõ taskot kapnak
+
+Critical change
+csak TRR nál kell nézni
+nincs nem átnézett elem
+report az jó szoftverre készült
+checkpoint+release szám azonosítja
+van-e ismert hiba ami már megvolt jelölve tartalmazza-e még
+
+CRR
+
+warning-okat nézi meg hogy van e funkcionális hatása
+report az jó szoftverre készült
+checkpoint azonosít
+minden warning-hoz kell komment
+
+QAC
+
+MIsra C 
+El lehet nyomni a szoftverben-->intended deviation a reportban
+RR-nál végig kell nézni hogy ami deviációként szerepel annak van e funkcionális hatása
+ha nincs akkor kommentezni kell, értelmes magyarázattal 
+report az jó szoftverre készült
+checkpoint azonosít
+minden QAC deviációhoz-hoz kell komment
+TB 2013 felett nem lehet no comment
+
+OBJ COMP. 
+
+Az elõzö release szoftvert hasonlítja össze a jelenlegivel object szinten
+svisor nézi létezik-e ez a dokumentum
+fejlesztõ megnézi hogy a változtatások szándékosak e az elõzö release óta
+
+Change Doc
+
+Az elõzö release szoftvert hasonlítja össze a jelenlegivel file revizió szinten
+svisor nézi hogy a jó verziók lettek-e összehasonlítva, és az elõzö és a mostani checkpoint lesz
+fejlesztõ megnézi hogy a változtatások szándékosak e az elõzö release óta
+
+Change system relevant code 
+
+Vannak olyan fájlok amik változtatása a rendszerre lesz kihatással és ezért az ilyen tipusú fájlokat egy expert/base fejlesztõnek jóvá kell hagynia
+minden ilyen fájlhoz van e aláírás/jóváhagyás
+jó szoftverre készült-e release szám+ chp azonosító
+svisor tesztként szerepel-e az összes csoportja
+
